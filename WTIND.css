@@ -1,0 +1,204 @@
+.wrap {
+	width:960px;
+	margin: 80px auto 80px auto;
+	background-color: rgb(229, 231, 233);
+	padding: 20px;
+}
+
+.container{
+	position: fixed;	
+	width:960px;
+	margin: 80px auto;
+	background-color: rgb(100, 100, 100);
+	padding: 20px;
+	height: 80px;
+
+}
+
+#header {
+	position: fixed;
+	width:960px;
+
+	background-color: rgb(100, 100, 100);
+	padding: 20px;
+	height: 80px;
+	top:0;
+	}
+
+#footer {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	}
+	
+	
+	
+
+
+
+h1{font-size:240%}
+h2{font-size:210%}
+h3{font-size:180%}
+h4{font-size:150%}
+p{font-size:120%}
+
+strong{
+	font-size:121%
+}
+
+li{font-size:120%}
+/*
+ol li{font-size: 120%;
+font: "arial";}
+
+ li{font-family:"Myanmar2.2"} */
+
+.center {
+ margin: auto;
+ width: 60%;
+ border: 3px solid #73AD21;
+ padding: 10px;
+}
+.box{
+	margin: auto;
+	display: block;
+	background-color: #FFD;
+	padding: 10px 10px;
+	text-align: center;
+	border: 2px solid black;
+	width: 70%;
+	font-size: 123%;
+	font-weight:bold;
+}
+
+.por {
+ float: right;
+ width: auto;
+ margin: 0 0 0 20px;
+ padding: 0;
+ text-align: center;
+	}
+.pol {
+ float: left;
+ width: auto;
+ margin: 0 20px 0 0;
+ padding: 0;
+ text-align: center;
+	}
+div {
+ display: block;
+	width:100%;
+}
+.div1 {
+ float: left;
+ width: 100px;
+ height: 50px;
+ margin: 10px;
+ border: 3px solid #73AD21;
+}
+
+.div2 {
+ border: 1px solid red;
+}
+
+
+.div3 {
+ float: left;
+ width: 100px;
+ height: 50px;
+ margin: 10px;
+ border: 3px solid #73AD21;
+}
+
+.div4 {
+ border: 1px solid red;
+ clear: left;
+}
+
+div.desc {
+	 float: right;
+ width: auto;
+ margin: 0 0 0 20px;
+
+    padding: 15px;
+text-align: center;}
+
+span{
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 45%;
+    padding: 0px 20px 0px 20px;
+	border-right: 1px solid black;
+    /*height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+p.clear {
+ clear: both;
+}
+
+
+h2.clear {
+ clear: both;
+}
+/* */
+a:link {
+ color: green;
+ background-color: transparent;
+ text-decoration: none;
+}
+a:visited {
+ color: pink;
+ background-color: transparent;
+ text-decoration: none;
+}
+a:hover {
+ color: red;
+ background-color: transparent;
+ text-decoration: underline;
+}
+a:active {
+ color: yellow;
+ background-color: transparent;
+ text-decoration: underline;
+}
+
+
+table, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+th, td {
+ padding: 5px;
+ }
+th{
+	font-size: 120%;
+} 
+a:link, a:visited { 
+    color: (internal value);
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: (internal value);
+}
